@@ -28,7 +28,7 @@ if "name" in mydict:
 
 try:
     print(mydict["lastname"])
-except:
+except KeyError:
     print("Error")
 
 mydict = {"name": "Max", "age": 25, "city": "Boston"}
